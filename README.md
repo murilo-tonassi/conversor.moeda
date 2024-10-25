@@ -79,6 +79,10 @@ if (fromCurrency === toCurrency) {
 });
 
     Este trecho define a funcionalidade do botão "Limpar", que reseta todos os campos do formulário.
+
+## Fontes consultadas:
+
+- [Site base de conversão de moedas](https://www.bcb.gov.br/conversao)
  
 
  ## Tecnologias utilizadas:
