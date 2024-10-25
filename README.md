@@ -39,7 +39,7 @@ Trechos e explicações do código JavaScript:
     Essas linhas capturam o valor inserido e as moedas selecionadas pelo usuário.
     <hr>
 
-    - const exchangeRates = {
+- const exchangeRates = {
     usd: { brl: 5.05, eur: 0.94 },
     eur: { usd: 0.07, brl: 5.40 },
     brl: { usd: 0.20, eur: 0.19 }
@@ -91,7 +91,5 @@ if (fromCurrency === toCurrency) {
 
   ## Autores:
 - [Murilo Tonassi](https://github.com/murilo-tonassi)
-- [Nicolas Tonassi](https://github.com/nicolas-tonassi)
 - [Pamela Souza](https://github.com/PamelaSouzaSilva)
-- [Naillim Novaski](https://github.com/naillimnovaski)
 
