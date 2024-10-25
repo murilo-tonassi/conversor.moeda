@@ -44,6 +44,7 @@ Trechos e explicações do código JavaScript:
     eur: { usd: 0.07, brl: 5.40 },
     brl: { usd: 0.20, eur: 0.19 }
 };
+     
      As taxas de câmbio fixas estão definidas aqui. Por exemplo, 1 Dólar = 5,05 Reais.
      <hr>
 
@@ -51,6 +52,7 @@ Trechos e explicações do código JavaScript:
     document.getElementById('result').textContent = 'Por favor, insira um valor válido.';
     return;
 }
+   
     Verifica se o valor inserido é válido (não pode ser negativo ou nulo).
     <hr>
 
@@ -61,12 +63,14 @@ if (fromCurrency === toCurrency) {
 } else {
     convertedAmount = amount * exchangeRates[fromCurrency][toCurrency];
 }
+    
     Realiza a conversão multiplicando o valor pela taxa correspondente. Se a moeda de origem for a mesma que a de destino, o valor permanece inalterado.
     <hr>
 
 
 - document.getElementById('result').textContent = `Resultado: ${convertedAmount.toFixed(2)}`;
 
+    
     Exibe o resultado da conversão com duas casas decimais.
     <hr>
 
@@ -78,6 +82,7 @@ if (fromCurrency === toCurrency) {
     document.getElementById('result').textContent = '';
 });
 
+    
     Este trecho define a funcionalidade do botão "Limpar", que reseta todos os campos do formulário.
 
 ## Fontes consultadas:
