@@ -12,4 +12,10 @@ document.getElementById('currency-form').addEventListener('submit', function(e) 
       brl: { usd: 0.20, eur: 0.19 }
   };
 
+  // Verifica se o valor inserido é válido
+if (isNaN(amount) || amount <= 0) {
+   document.getElementById('result').textContent = 'Por favor, insira um valor válido.';
+   return;
+}
+
  
