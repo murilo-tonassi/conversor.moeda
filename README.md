@@ -81,4 +81,11 @@ if (fromCurrency === toCurrency) {
     Este trecho define a funcionalidade do botão "Limpar", que reseta todos os campos do formulário.
  
 
- 
+ ## Tecnologias utilizadas:
+- Visual Studio Code
+ - Github
+ - Git
+ - HTML5
+ - CSS3
+ - Javascript
+
