@@ -5,5 +5,11 @@ document.getElementById('currency-form').addEventListener('submit', function(e) 
    const fromCurrency = document.getElementById('from-currency').value;
    const toCurrency = document.getElementById('to-currency').value;
 
-   
+   // Taxas de câmbio fixas (predefinidas no código)
+   const exchangeRates = {
+      usd: { brl: 5.67, eur: 0.92 },
+      eur: { usd: 0.07, brl: 5.40 },
+      brl: { usd: 0.20, eur: 0.19 }
+  };
+
  
