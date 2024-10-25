@@ -15,6 +15,10 @@ A aplicação permite que o usuário:
  
 Este projeto foi estruturado seguindo boas práticas de organização do código e separação entre lógica (JavaScript), estrutura (HTML) e estilo (CSS).
 
+<img src="gif.moeda.gif">
+<hr>
+<img src="img.moeda.png">
+
 ## Funcionalidades
 
 O JavaScript implementa a lógica para:
